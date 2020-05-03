@@ -44,6 +44,9 @@ To start working with this package you need to obtain personal API key [from her
     
     # Initialising API class
     api = LeakCheckAPI()
+
+    # API key setting
+    api.set_key("YOUR_KEY")
     
     limits = api.getLimits() # dict
 
